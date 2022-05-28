@@ -1,0 +1,15 @@
+COMANDOS GIT
+-cd 				~> ir a um diretorio
+-ls			 	~> ver o que tem dentro do diretorio
+-mkdir  			~> criar diretorio
+-mv (arquivo) ./diretorio/	~> mover arquivo de diretorio
+-ctrl + l 			~> limpar cmd
+-git clone link			~> clonar repositorio
+-git init			~> criar repositorio
+-git remote add origin link	~> adicionar repositorio remoto
+-git remote -v			~> listar repositorios
+-git add */.			~> adicionar arquivo para a area staged
+-git commit -m	"msg"		~> commitar arquivos
+-git status			~> ver o estado dos arquivos
+-git pull origin master	--allow-unrelated-histories	~> caso tenha diferenças entre repositorio remoto e fisico
+-git push origin master		~> empurrar diretorio para o repositorio remoto
